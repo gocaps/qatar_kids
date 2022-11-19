@@ -8,13 +8,13 @@ echo '<style>'.$css.'</style>';
 require_once('wc_pool.php');
 
 if(UPDATING) {
-  echo '<h1>Dave\'s World Cup Pool</h1>';
+  echo '<h1>Kids Only World Cup Pool</h1>';
   echo '<h3>HOLD YOUR HORSES!</h3>';
   echo '<p>I\'m doing some standings updates. ~Dave</p>';
 }
 else {
-  echo '<h1>Dave\'s World Cup Pool</h1>';
-  echo '<a name="top" href="#groups">See Groups</a><br />';
+  echo '<h1>Kids Only World Cup Pool</h1>';
+  echo '<a name="top" href="#groups">See Brackets</a><br />';
   echo '<a href="#rules">See Rules & Prizes</a>';
   echo '<h4>Last Update: '.LAST_UPDATE.'</h4>';
   if(TWEET) echo TWEET;
@@ -27,8 +27,8 @@ else {
 
   echo '<a name="rules"/>';
   echo '<h4>Rules</h4>';
-  echo '<p>In Team groups, each win in the tournament is worth 3 points. A draw is worth 1 point. The team in each bracket (and ties) that finishes with the most points will receive 3 bonus points.</p>';
-  echo '<p>In Player groups, each goal scored is worth 2 points. The player in each bracket (and ties) that finishes with the most goals will receive 3 bonus points.</p>';
+  echo '<p>In Team brackets, each win in the tournament is worth 3 points. A draw is worth 1 point. The team in each bracket (and ties) that finishes with the most points will receive 3 bonus points.</p>';
+  echo '<p>In Player brackets, each goal scored is worth 2 points. The player in each bracket (and ties) that finishes with the most goals will receive 3 bonus points.</p>';
   echo '<h4>Prizes</h4>';
   echo '<ul><li>1st - $200</li><li>2nd - $100</li><li>3rd - $40</li></ul>';
   echo '<h4>Tiebreakers</h4>';
