@@ -130,6 +130,44 @@ class WC_Team {
 
   	$map = array();
   	$map['MBAPPE'] = 'france';
+  	$map['MESSI'] = 'argentina';
+  	$map['KANE'] = 'england';
+  	$map['NEYMAR'] = 'brazil';
+  	$map['BENZEMA'] = 'france';
+  	$map['RONALDO'] = 'portugal';
+  	$map['LUKAKU'] = 'belgium';
+  	$map['LAUTARO'] = 'argentina';
+  	$map['DEPAY'] = 'holland';
+  	$map['VINICIUS'] = 'brazil';
+  	$map['RICHARLISON'] = 'brazil';
+  	$map['MORATA'] = 'spain';
+  	$map['HAVERTZ'] = 'germany';
+  	$map['LEWANDOWSKI'] = 'poland';
+  	$map['TORRES'] = 'spain';
+  	$map['STERLING'] = 'england';
+  	$map['GNABRY'] = 'germany';
+  	$map['GRIEZMANN'] = 'france';
+  	$map['FATI'] = 'spain';
+  	$map['FODEN'] = 'england';
+  	$map['DEBRUYNE'] = 'belgium';
+  	$map['NUNEZ'] = 'uruguay';
+  	$map['VLAHOVIC'] = 'serbia';
+  	$map['SANE'] = 'germany';
+  	$map['BALE'] = 'wales';
+  	$map['GAKPO'] = 'holland';
+  	$map['BERNARDO'] = 'spain';
+  	$map['MODRIC'] = 'croatia';
+  	$map['PULISIC'] = 'usa';
+  	$map['SON'] = 'korea';
+  	$map['HOJBJERG'] = 'denmark';
+  	$map['JIMENEZ'] = 'mexico';
+  	$map['AYEW'] = 'ghana';
+  	$map['KAMADA'] = 'japan';
+  	$map['DAVIES'] = 'canada';
+  	$map['LARIN'] = 'canada';
+  	$map['BUCHANON'] = 'canada';
+  	$map['CAVALLINI'] = 'canada';
+  	$map['DAVID'] = 'canada';
 
   	return $map[$player];
   }
