@@ -98,9 +98,9 @@ class WC_Team {
 	$wins = ($pts[0] > 0)? $pts[0]/3 : 0;
 	$total = $pts[0] + $pts[1] + $pts[2];
 	
-	$out = 'class="in"';
+	$out = 'class="in '.$team_name.'"';
 	if($pts[3]) {
-	  $out = 'class="out"';
+	  $out = 'class="out '.$team_name.'"';
 	}
 	
 	echo '<tr><td '.$out.'>'.$team_name.'</td><td>'.$wins.'</td><td>'.$pts[1].'</td><td>'.$pts[2].'</td><td>'.$total.'</td></tr>';
