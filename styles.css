@@ -36,140 +36,140 @@ a.top {
 	font-size: 10px;	
 }
 
-td.argentina::after	{
+td.argentina::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Argentina.jpg');
 	padding-left: 1rem;
 }
-td.brazil::after	{
+td.brazil::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Brazil.jpg');
 	padding-left: 1rem;
 }
-td.france::after	{
+td.france::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/France.jpg');
 	padding-left: 1rem;
 }
 
-td.spain::after	{
+td.spain::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Spain.jpg');
 	padding-left: 1rem;
 }
-td.england::after	{
+td.england::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/England.jpg');
 	padding-left: 1rem;
 }
-td.holland::after	{
+td.holland::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Holland.jpg');
 	padding-left: 1rem;
 }
 
-td.germany::after	{
+td.germany::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Germany.jpg');
 	padding-left: 1rem;
 }
-td.portugal::after	{
+td.portugal::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Portugal.jpg');
 	padding-left: 1rem;
 }
-td.belgium::after	{
+td.belgium::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Belgium.jpg');
 	padding-left: 1rem;
 }
 
-td.denmark::after	{
+td.denmark::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Denmark.jpg');
 	padding-left: 1rem;
 }
-td.croatia::after	{
+td.croatia::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Croatia.jpg');
 	padding-left: 1rem;
 }
-td.uruguay::after	{
+td.uruguay::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Uruguay.jpg');
 	padding-left: 1rem;
 }
 
-td.switzerland::after	{
+td.switzerland::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Switzerland.jpg');
 	padding-left: 1rem;
 }
-td.ecuador::after	{
+td.ecuador::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Ecuador.jpg');
 	padding-left: 1rem;
 }
-td.mexico::after	{
+td.mexico::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Mexico.jpg');
 	padding-left: 1rem;
 }
 
-td.poland::after	{
+td.poland::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Poland.jpg');
 	padding-left: 1rem;
 }
-td.senegal::after	{
+td.senegal::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Senegal.jpg');
 	padding-left: 1rem;
 }
-td.usa::after	{
+td.usa::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/USA.jpg');
 	padding-left: 1rem;
 }
-td.serbia::after	{
+td.serbia::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Serbia.jpg');
 	padding-left: 1rem;
 }
 
-td.wales::after	{
+td.wales::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Wales.jpg');
 	padding-left: 1rem;
 }
-td.morocco::after	{
+td.morocco::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Morocco.jpg');
 	padding-left: 1rem;
 }
-td.korea::after	{
+td.korea::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/South_Korea.jpg');
 	padding-left: 1rem;
 }
 
-td.canada::after	{
+td.canada::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Canada.jpg');
 	padding-left: 1rem;
 }
-td.ghana::after	{
+td.ghana::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Ghana.jpg');
 	padding-left: 1rem;
 }
-td.japan::after	{
+td.japan::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Japan.jpg');
 	padding-left: 1rem;
 }
 
-td.australia::after	{
+td.australia::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Australia.jpg');
 	padding-left: 1rem;
 }
-td.cameroon::after	{
+td.cameroon::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Cameroon.jpg');
 	padding-left: 1rem;
 }
-td.iran::after	{
+td.iran::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Iran.jpg');
 	padding-left: 1rem;
 }
 
-td.tunisia::after	{
+td.tunisia::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Tunisia.jpg');
 	padding-left: 1rem;
 }
-td.qatar::after	{
+td.qatar::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Qatar.jpg');
 	padding-left: 1rem;
 }
-td.saudia::after	{
+td.saudia::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Saudi_Arabia.jpg');
 	padding-left: 1rem;
 }
-td.costa::after	{
+td.costa::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Costa_Rica.jpg');
 	padding-left: 1rem;
 }
