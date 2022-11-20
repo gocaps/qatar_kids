@@ -115,15 +115,24 @@ class WC_Team {
 	$goals = ($pts[0] > 0)? $pts[0]/2 : 0;
 	$total = $pts[0] + $pts[1];
 
-	$out = 'class="in"';
+	$team_class = $this->getPlayerCountry($player_name);
+
+	$out = 'class="in '.$team_class.'"';
 	if($pts[2]) {
-	  $out = 'class="out"';
+	  $out = 'class="out '.$team_class.'"';
 	}
 	
 	echo '<tr><td '.$out.'>'.$player_name.'</td><td colspan="2">'.$goals.'</td><td>'.$pts[1].'</td><td>'.$total.'</td></tr>';
   
   }
 
+  private function getPlayerCountry($player) {
+
+  	$map = array();
+  	$map['MBAPPE'] = 'france';
+
+  	return $map[$player];
+  }
+
 }
 
-?>
