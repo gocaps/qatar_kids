@@ -110,7 +110,7 @@ td.senegal::before	{
 	padding-right: 0.5rem;
 }
 td.usa::before	{
-	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/USA.jpg');
+	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/United_States.jpg');
 	padding-right: 0.5rem;
 }
 td.serbia::before	{
@@ -165,7 +165,7 @@ td.qatar::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Qatar.jpg');
 	padding-right: 0.5rem;
 }
-td.saudia::before	{
+td.saudi::before	{
 	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Saudi_Arabia.jpg');
 	padding-right: 0.5rem;
 }

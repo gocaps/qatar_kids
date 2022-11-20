@@ -138,7 +138,7 @@ class WC_Team {
   	$map['LUKAKU'] = 'belgium';
   	$map['LAUTARO'] = 'argentina';
   	$map['DEPAY'] = 'holland';
-  	$map['VINICIUS'] = 'brazil';
+  	$map['VINICIUS JR'] = 'brazil';
   	$map['RICHARLISON'] = 'brazil';
   	$map['MORATA'] = 'spain';
   	$map['HAVERTZ'] = 'germany';
@@ -147,9 +147,9 @@ class WC_Team {
   	$map['STERLING'] = 'england';
   	$map['GNABRY'] = 'germany';
   	$map['GRIEZMANN'] = 'france';
-  	$map['FATI'] = 'spain';
+  	$map['ANSU FATI'] = 'spain';
   	$map['FODEN'] = 'england';
-  	$map['DEBRUYNE'] = 'belgium';
+  	$map['DE BRUYNE'] = 'belgium';
   	$map['NUNEZ'] = 'uruguay';
   	$map['VLAHOVIC'] = 'serbia';
   	$map['SANE'] = 'germany';
