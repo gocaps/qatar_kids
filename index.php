@@ -30,7 +30,7 @@ else {
   echo '<p>In Team brackets, each win in the tournament is worth 3 points. A draw is worth 1 point. The team in each bracket (and ties) that finishes with the most points will receive 3 bonus points.</p>';
   echo '<p>In Player brackets, each goal scored is worth 2 points. The player in each bracket (and ties) that finishes with the most goals will receive 3 bonus points.</p>';
   echo '<h4>Prizes</h4>';
-  echo '<ul><li>1st - $200</li><li>2nd - $100</li><li>3rd - $40</li>';
+  echo '<ul><li>1st - $50</li><li>2nd - $30</li><li>3rd - $20</li>';
   echo '<li>Plus random soccer card prizes, to be announced as the tournament progresses</li></ul>';
 
   echo '<h4>Tiebreakers</h4>';
