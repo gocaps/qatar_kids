@@ -339,10 +339,10 @@ $zev['T']['BUCHANON'] = BUCHANON;
 define('ZEV', serialize($zev));
 
 $zev2 = array();
-$zev2['name'] = 'SSUUUUIII';
+$zev2['name'] = 'Messi ain\'t the GOAT Ronaldo better';
 $zev2['A']['BRAZIL'] = BRAZIL;
 $zev2['B']['SPAIN'] = SPAIN;
-$zev2['C']['PORTUGAL'] = PORTUGAL;
+$zev2['C']['GERMANY'] = GERMANY;
 $zev2['D']['URUGUAY'] = URUGUAY;
 $zev2['E']['SWITZERLAND'] = SWITZ;
 $zev2['F']['POLAND'] = POLAND;
