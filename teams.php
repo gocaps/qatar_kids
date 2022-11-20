@@ -434,6 +434,30 @@ $reef['S']['AYEW'] = AYEW;
 $reef['T']['CAVALLINI'] = CAVALLINI;
 define('REEF', serialize($reef));
 
+$kieran2 = array();
+$kieran2['name'] = 'Kieran\'s other team';
+$kieran2['A']['FRANCE'] = FRANCE;
+$kieran2['B']['HOLLAND'] = HOLLAND;
+$kieran2['C']['PORTUGAL'] = PORTUGAL;
+$kieran2['D']['DENMARK'] = DENMARK;
+$kieran2['E']['ECUADOR'] = ECUADOR;
+$kieran2['F']['POLAND'] = POLAND;
+$kieran2['G']['SOUTH KOREA'] = KOREA;
+$kieran2['H']['CANADA'] = CANADA;
+$kieran2['I']['CAMEROON'] = CAMEROON;
+$kieran2['J']['QATAR'] = QATAR;
+$kieran2['K']['KANE'] = KANE;
+$kieran2['L']['RONALDO'] = RONALDO;
+$kieran2['M']['DEPAY'] = DEPAY;
+$kieran2['N']['MORATA'] = MORATA;
+$kieran2['O']['GRIEZMANN'] = GRIEZMANN;
+$kieran2['P']['FODEN'] = FODEN;
+$kieran2['Q']['GAKPO'] = GAKPO;
+$kieran2['R']['SON'] = SON;
+$kieran2['S']['HOJBJERG'] = HOJBJERG;
+$kieran2['T']['DAVIES'] = DAVIES;
+define('KIERAN2', serialize($kieran2));
+
 /********************************/
 
 $wc_teams = array();
@@ -455,4 +479,5 @@ $wc_teams[] = $zev2;
 $wc_teams[] = $kieran;
 $wc_teams[] = $zephyr;
 $wc_teams[] = $reef;
+$wc_teams[] = $kieran2;
 define('WC_TEAMS', serialize($wc_teams));
