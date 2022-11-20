@@ -37,5 +37,14 @@ a.top {
 }
 
 td.argentina::after	{
-	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/argentina.png');
+	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Argentina.jpg');
+	padding-left: 1rem;
+}
+td.brazil::after	{
+	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/Brazil.jpg');
+	padding-left: 1rem;
+}
+td.france::after	{
+	content: url('https://raw.githubusercontent.com/gocaps/qatar_kids/main/flags/France.jpg');
+	padding-left: 1rem;
 }
