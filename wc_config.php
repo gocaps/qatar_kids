@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'Tournament Start!');
+define('LAST_UPDATE', 'After Ecuador vs Qatar');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -62,7 +62,7 @@ define('URUGUAY',   serialize(array(URUGUAY_WINS, URUGUAY_TIES, URUGUAY_BONUS, U
 /*************************************************/
 //E
 define('SWITZ_WINS', 0);    define('SWITZ_TIES', 0);    define('SWITZ_BONUS', 0);
-define('ECUADOR_WINS', 0);	define('ECUADOR_TIES', 0);		define('ECUADOR_BONUS', 0);
+define('ECUADOR_WINS', 3);	define('ECUADOR_TIES', 0);		define('ECUADOR_BONUS', 0);
 define('MEXICO_WINS', 0);		define('MEXICO_TIES', 0);		define('MEXICO_BONUS', 0);
 define('SWITZ_OUT', 0);		define('ECUADOR_OUT', 0);			define('MEXICO_OUT', 0);
 
