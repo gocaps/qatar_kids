@@ -37,5 +37,5 @@ a.top {
 }
 
 td.argentina::after	{
-	content: url('flags/argentina.png');
+	content: url('/flags/argentina.png');
 }
