@@ -154,7 +154,7 @@ define('KANE', serialize(array(KANE_GOALS, KANE_BONUS, KANE_OUT)));
 
 /*************************************************/
 //L
-define('NEYMAR_GOALS', 1);		define('NEYMAR_BONUS', 0);
+define('NEYMAR_GOALS', 2);		define('NEYMAR_BONUS', 0);
 define('BENZEMA_GOALS', 0);		define('BENZEMA_BONUS', 0);
 define('RONALDO_GOALS', 0);		define('RONALDO_BONUS', 0);
 define('NEYMAR_OUT', 0);		define('BENZEMA_OUT', 0);		define('RONALDO_OUT', 0);

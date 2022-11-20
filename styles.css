@@ -37,5 +37,5 @@ a.top {
 }
 
 td.argentina::after	{
-	content: url('https://www.sciencekids.co.nz/images/pictures/flags96/Argentina.jpg');
+	content: url('flags/argentina.png');
 }
