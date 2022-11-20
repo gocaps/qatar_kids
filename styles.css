@@ -35,3 +35,7 @@ span.out {
 a.top {
 	font-size: 10px;	
 }
+
+.argentina::after	{
+	content: url('https://www.sciencekids.co.nz/images/pictures/flags96/Argentina.jpg');
+}
