@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Ecuador vs Qatar');
+define('LAST_UPDATE', 'After Holland vs Senegal');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -26,8 +26,8 @@ define('FRANCE',  serialize(array(FRANCE_WINS, FRANCE_TIES, FRANCE_BONUS, FRANCE
 /*************************************************/
 //B
 define('SPAIN_WINS', 0);		define('SPAIN_TIES', 0);		define('SPAIN_BONUS', 0);
-define('ENGLAND_WINS', 0);		define('ENGLAND_TIES', 0);		define('ENGLAND_BONUS', 0);
-define('HOLLAND_WINS', 0);    define('HOLLAND_TIES', 0);    define('HOLLAND_BONUS', 0);
+define('ENGLAND_WINS', 3);		define('ENGLAND_TIES', 0);		define('ENGLAND_BONUS', 0);
+define('HOLLAND_WINS', 3);    define('HOLLAND_TIES', 0);    define('HOLLAND_BONUS', 0);
 define('SPAIN_OUT', 0);			define('ENGLAND_OUT', 0);   define('HOLLAND_OUT', 0);
 
 define('SPAIN', 	serialize(array(SPAIN_WINS, SPAIN_TIES, SPAIN_BONUS, SPAIN_OUT)));
@@ -195,7 +195,7 @@ define('LEWANDOWSKI', serialize(array(LEWANDOWSKI_GOALS, LEWANDOWSKI_BONUS, LEWA
 /*************************************************/
 //O
 define('TORRES_GOALS', 0);		define('TORRES_BONUS', 0);
-define('STERLING_GOALS', 0);		define('STERLING_BONUS', 0);
+define('STERLING_GOALS', 2);		define('STERLING_BONUS', 0);
 define('GNABRY_GOALS', 0);	define('GNABRY_BONUS', 0);
 define('GRIEZMANN_GOALS', 0);		define('GRIEZMANN_BONUS', 0);
 define('TORRES_OUT', 0);		define('STERLING_OUT', 0);		define('GNABRY_OUT', 0);		define('GRIEZMANN_OUT', 0);
@@ -225,7 +225,7 @@ define('NUNEZ', serialize(array(NUNEZ_GOALS, NUNEZ_BONUS, NUNEZ_OUT)));
 define('VLAHOVIC_GOALS', 0);		define('VLAHOVIC_BONUS', 0);
 define('SANE_GOALS', 0);		define('SANE_BONUS', 0);
 define('BALE_GOALS', 0);		define('BALE_BONUS', 0);
-define('GAKPO_GOALS', 0);		define('GAKPO_BONUS', 0);
+define('GAKPO_GOALS', 2);		define('GAKPO_BONUS', 0);
 define('VLAHOVIC_OUT', 0);	define('SANE_OUT', 0);		define('BALE_OUT', 0);		define('GAKPO_OUT', 0);
 
 define('VLAHOVIC', serialize(array(VLAHOVIC_GOALS, VLAHOVIC_BONUS, VLAHOVIC_OUT)));
