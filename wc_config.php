@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Holland vs Senegal');
+define('LAST_UPDATE', 'After Wales vs USA');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -75,7 +75,7 @@ define('MEXICO', 	serialize(array(MEXICO_WINS, MEXICO_TIES, MEXICO_BONUS, MEXICO
 //F
 define('POLAND_WINS', 0);		define('POLAND_TIES', 0);		define('POLAND_BONUS', 0);
 define('SENEGAL_WINS', 0);		define('SENEGAL_TIES', 0);		define('SENEGAL_BONUS', 0);
-define('USA_WINS', 0);		define('USA_TIES', 0);		define('USA_BONUS', 0);
+define('USA_WINS', 0);		define('USA_TIES', 1);		define('USA_BONUS', 0);
 define('SERBIA_WINS', 0);		define('SERBIA_TIES', 0);		define('SERBIA_BONUS', 0);
 define('POLAND_OUT', 0);			define('SENEGAL_OUT', 0);			define('USA_OUT', 0);	define('SERBIA_OUT', 0);
 
@@ -87,7 +87,7 @@ define('SERBIA', 	serialize(array(SERBIA_WINS, SERBIA_TIES, SERBIA_BONUS, SERBIA
 
 /*************************************************/
 //G
-define('WALES_WINS', 0);		define('WALES_TIES', 0);		define('WALES_BONUS', 0);
+define('WALES_WINS', 0);		define('WALES_TIES', 1);		define('WALES_BONUS', 0);
 define('MOROCCO_WINS', 0);		define('MOROCCO_TIES', 0);		define('MOROCCO_BONUS', 0);
 define('KOREA_WINS', 0);		define('KOREA_TIES', 0);		define('KOREA_BONUS', 0);
 define('WALES_OUT', 0);		define('MOROCCO_OUT', 0);		define('KOREA_OUT', 0);
@@ -224,7 +224,7 @@ define('NUNEZ', serialize(array(NUNEZ_GOALS, NUNEZ_BONUS, NUNEZ_OUT)));
 //Q
 define('VLAHOVIC_GOALS', 0);		define('VLAHOVIC_BONUS', 0);
 define('SANE_GOALS', 0);		define('SANE_BONUS', 0);
-define('BALE_GOALS', 0);		define('BALE_BONUS', 0);
+define('BALE_GOALS', 2);		define('BALE_BONUS', 0);
 define('GAKPO_GOALS', 2);		define('GAKPO_BONUS', 0);
 define('VLAHOVIC_OUT', 0);	define('SANE_OUT', 0);		define('BALE_OUT', 0);		define('GAKPO_OUT', 0);
 
