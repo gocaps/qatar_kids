@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Denmark vs Tunisia');
+define('LAST_UPDATE', 'After France vs Australia');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -14,7 +14,7 @@ define('TWEET', false);
 //A
 define('BRAZIL_WINS', 0);		define('BRAZIL_TIES', 0);		define('BRAZIL_BONUS', 0);
 define('ARGENTINA_WINS', 0);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
-define('FRANCE_WINS', 0);  define('FRANCE_TIES', 0);  define('FRANCE_BONUS', 0);
+define('FRANCE_WINS', 3);  define('FRANCE_TIES', 0);  define('FRANCE_BONUS', 0);
 define('BRAZIL_OUT', 0);		define('ARGENTINA_OUT', 0); define('FRANCE_OUT', 0);
 
 define('BRAZIL', 	serialize(array(BRAZIL_WINS, BRAZIL_TIES, BRAZIL_BONUS, BRAZIL_OUT)));
@@ -63,7 +63,7 @@ define('URUGUAY',   serialize(array(URUGUAY_WINS, URUGUAY_TIES, URUGUAY_BONUS, U
 //E
 define('SWITZ_WINS', 0);    define('SWITZ_TIES', 0);    define('SWITZ_BONUS', 0);
 define('ECUADOR_WINS', 3);	define('ECUADOR_TIES', 0);		define('ECUADOR_BONUS', 0);
-define('MEXICO_WINS', 0);		define('MEXICO_TIES', 0);		define('MEXICO_BONUS', 0);
+define('MEXICO_WINS', 0);		define('MEXICO_TIES', 1);		define('MEXICO_BONUS', 0);
 define('SWITZ_OUT', 0);		define('ECUADOR_OUT', 0);			define('MEXICO_OUT', 0);
 
 define('SWITZ',   serialize(array(SWITZ_WINS, SWITZ_TIES, SWITZ_BONUS, SWITZ_OUT)));
@@ -73,7 +73,7 @@ define('MEXICO', 	serialize(array(MEXICO_WINS, MEXICO_TIES, MEXICO_BONUS, MEXICO
 
 /*************************************************/
 //F
-define('POLAND_WINS', 0);		define('POLAND_TIES', 0);		define('POLAND_BONUS', 0);
+define('POLAND_WINS', 0);		define('POLAND_TIES', 1);		define('POLAND_BONUS', 0);
 define('SENEGAL_WINS', 0);		define('SENEGAL_TIES', 0);		define('SENEGAL_BONUS', 0);
 define('USA_WINS', 0);		define('USA_TIES', 1);		define('USA_BONUS', 0);
 define('SERBIA_WINS', 0);		define('SERBIA_TIES', 0);		define('SERBIA_BONUS', 0);
@@ -142,7 +142,7 @@ define('COSTA',   serialize(array(COSTA_WINS, COSTA_TIES, COSTA_BONUS, COSTA_OUT
 
 /*************************************************/
 //K
-define('MBAPPE_GOALS', 0);    define('MBAPPE_BONUS', 0);
+define('MBAPPE_GOALS', 2);    define('MBAPPE_BONUS', 0);
 define('MESSI_GOALS', 2);   define('MESSI_BONUS', 0);
 define('KANE_GOALS', 0);   define('KANE_BONUS', 0);
 define('MBAPPE_OUT', 0);	 define('MESSI_OUT', 0); define('KANE_OUT', 0);
