@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After France vs Australia');
+define('LAST_UPDATE', 'After Spain vs Costa Rica');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -25,7 +25,7 @@ define('FRANCE',  serialize(array(FRANCE_WINS, FRANCE_TIES, FRANCE_BONUS, FRANCE
 
 /*************************************************/
 //B
-define('SPAIN_WINS', 0);		define('SPAIN_TIES', 0);		define('SPAIN_BONUS', 0);
+define('SPAIN_WINS', 3);		define('SPAIN_TIES', 0);		define('SPAIN_BONUS', 0);
 define('ENGLAND_WINS', 3);		define('ENGLAND_TIES', 0);		define('ENGLAND_BONUS', 0);
 define('HOLLAND_WINS', 3);    define('HOLLAND_TIES', 0);    define('HOLLAND_BONUS', 0);
 define('SPAIN_OUT', 0);			define('ENGLAND_OUT', 0);   define('HOLLAND_OUT', 0);
@@ -50,7 +50,7 @@ define('BELGIUM', 	serialize(array(BELGIUM_WINS, BELGIUM_TIES, BELGIUM_BONUS, BE
 /*************************************************/
 //D
 define('DENMARK_WINS', 0);		define('DENMARK_TIES', 1);		define('DENMARK_BONUS', 0);
-define('CROATIA_WINS', 0);		define('CROATIA_TIES', 0);		define('CROATIA_BONUS', 0);
+define('CROATIA_WINS', 0);		define('CROATIA_TIES', 1);		define('CROATIA_BONUS', 0);
 define('URUGUAY_WINS', 0);		define('URUGUAY_TIES', 0);		define('URUGUAY_BONUS', 0);
 define('DENMARK_OUT', 0);		define('CROATIA_OUT', 0);			define('URUGUAY_OUT', 0);
 
@@ -88,7 +88,7 @@ define('SERBIA', 	serialize(array(SERBIA_WINS, SERBIA_TIES, SERBIA_BONUS, SERBIA
 /*************************************************/
 //G
 define('WALES_WINS', 0);		define('WALES_TIES', 1);		define('WALES_BONUS', 0);
-define('MOROCCO_WINS', 0);		define('MOROCCO_TIES', 0);		define('MOROCCO_BONUS', 0);
+define('MOROCCO_WINS', 0);		define('MOROCCO_TIES', 1);		define('MOROCCO_BONUS', 0);
 define('KOREA_WINS', 0);		define('KOREA_TIES', 0);		define('KOREA_BONUS', 0);
 define('WALES_OUT', 0);		define('MOROCCO_OUT', 0);		define('KOREA_OUT', 0);
 
@@ -101,7 +101,7 @@ define('KOREA', 	serialize(array(KOREA_WINS, KOREA_TIES, KOREA_BONUS, KOREA_OUT)
 //H
 define('CANADA_WINS', 0);			define('CANADA_TIES', 0);			define('CANADA_BONUS', 0);
 define('GHANA_WINS', 0);		define('GHANA_TIES', 0);		define('GHANA_BONUS', 0);
-define('JAPAN_WINS', 0);		define('JAPAN_TIES', 0);		define('JAPAN_BONUS', 0);
+define('JAPAN_WINS', 3);		define('JAPAN_TIES', 0);		define('JAPAN_BONUS', 0);
 define('CANADA_OUT', 0);			define('GHANA_OUT', 0);			define('JAPAN_OUT', 0);
 
 define('CANADA', 		serialize(array(CANADA_WINS, CANADA_TIES, CANADA_BONUS, CANADA_OUT)));
@@ -181,7 +181,7 @@ define('VINI', serialize(array(VINI_GOALS, VINI_BONUS, VINI_OUT)));
 /*************************************************/
 //N
 define('RICHARLISON_GOALS', 0);		define('RICHARLISON_BONUS', 0);
-define('MORATA_GOALS', 0);		define('MORATA_BONUS', 0);
+define('MORATA_GOALS', 2);		define('MORATA_BONUS', 0);
 define('HAVERTZ_GOALS', 0);		define('HAVERTZ_BONUS', 0);
 define('LEWANDOWSKI_GOALS', 0);		define('LEWANDOWSKI_BONUS', 0);
 define('RICHARLISON_OUT', 0);			define('MORATA_OUT', 0);		define('HAVERTZ_OUT', 0);		define('LEWANDOWSKI_OUT', 0);
@@ -194,7 +194,7 @@ define('LEWANDOWSKI', serialize(array(LEWANDOWSKI_GOALS, LEWANDOWSKI_BONUS, LEWA
 
 /*************************************************/
 //O
-define('TORRES_GOALS', 0);		define('TORRES_BONUS', 0);
+define('TORRES_GOALS', 4);		define('TORRES_BONUS', 0);
 define('STERLING_GOALS', 2);		define('STERLING_BONUS', 0);
 define('GNABRY_GOALS', 0);	define('GNABRY_BONUS', 0);
 define('GRIEZMANN_GOALS', 0);		define('GRIEZMANN_BONUS', 0);
