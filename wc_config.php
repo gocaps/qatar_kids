@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Portugal vs Ghana');
+define('LAST_UPDATE', 'After Brazil vs Serbia');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -12,7 +12,7 @@ define('TWEET', false);
 
 /*************************************************/
 //A
-define('BRAZIL_WINS', 0);		define('BRAZIL_TIES', 0);		define('BRAZIL_BONUS', 0);
+define('BRAZIL_WINS', 3);		define('BRAZIL_TIES', 0);		define('BRAZIL_BONUS', 0);
 define('ARGENTINA_WINS', 0);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
 define('FRANCE_WINS', 3);  define('FRANCE_TIES', 0);  define('FRANCE_BONUS', 0);
 define('BRAZIL_OUT', 0);		define('ARGENTINA_OUT', 0); define('FRANCE_OUT', 0);
@@ -180,7 +180,7 @@ define('VINI', serialize(array(VINI_GOALS, VINI_BONUS, VINI_OUT)));
 
 /*************************************************/
 //N
-define('RICHARLISON_GOALS', 0);		define('RICHARLISON_BONUS', 0);
+define('RICHARLISON_GOALS', 4);		define('RICHARLISON_BONUS', 0);
 define('MORATA_GOALS', 2);		define('MORATA_BONUS', 0);
 define('HAVERTZ_GOALS', 0);		define('HAVERTZ_BONUS', 0);
 define('LEWANDOWSKI_GOALS', 0);		define('LEWANDOWSKI_BONUS', 0);
