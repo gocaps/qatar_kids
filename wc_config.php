@@ -26,7 +26,7 @@ define('FRANCE',  serialize(array(FRANCE_WINS, FRANCE_TIES, FRANCE_BONUS, FRANCE
 /*************************************************/
 //B
 define('SPAIN_WINS', 3);		define('SPAIN_TIES', 0);		define('SPAIN_BONUS', 0);
-define('ENGLAND_WINS', 3);		define('ENGLAND_TIES', 0);		define('ENGLAND_BONUS', 0);
+define('ENGLAND_WINS', 3);		define('ENGLAND_TIES', 1);		define('ENGLAND_BONUS', 0);
 define('HOLLAND_WINS', 3);    define('HOLLAND_TIES', 1);    define('HOLLAND_BONUS', 0);
 define('SPAIN_OUT', 0);			define('ENGLAND_OUT', 0);   define('HOLLAND_OUT', 0);
 
@@ -75,7 +75,7 @@ define('MEXICO', 	serialize(array(MEXICO_WINS, MEXICO_TIES, MEXICO_BONUS, MEXICO
 //F
 define('POLAND_WINS', 0);		define('POLAND_TIES', 1);		define('POLAND_BONUS', 0);
 define('SENEGAL_WINS', 3);		define('SENEGAL_TIES', 0);		define('SENEGAL_BONUS', 0);
-define('USA_WINS', 0);		define('USA_TIES', 1);		define('USA_BONUS', 0);
+define('USA_WINS', 0);		define('USA_TIES', 2);		define('USA_BONUS', 0);
 define('SERBIA_WINS', 0);		define('SERBIA_TIES', 0);		define('SERBIA_BONUS', 0);
 define('POLAND_OUT', 0);			define('SENEGAL_OUT', 0);			define('USA_OUT', 0);	define('SERBIA_OUT', 0);
 
