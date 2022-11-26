@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Poland vs Saudi Arabia');
+define('LAST_UPDATE', 'After Argentina vs Mexico');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -13,8 +13,8 @@ define('TWEET', false);
 /*************************************************/
 //A
 define('BRAZIL_WINS', 3);		define('BRAZIL_TIES', 0);		define('BRAZIL_BONUS', 0);
-define('ARGENTINA_WINS', 0);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
-define('FRANCE_WINS', 3);  define('FRANCE_TIES', 0);  define('FRANCE_BONUS', 0);
+define('ARGENTINA_WINS', 3);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
+define('FRANCE_WINS', 6);  define('FRANCE_TIES', 0);  define('FRANCE_BONUS', 0);
 define('BRAZIL_OUT', 0);		define('ARGENTINA_OUT', 0); define('FRANCE_OUT', 0);
 
 define('BRAZIL', 	serialize(array(BRAZIL_WINS, BRAZIL_TIES, BRAZIL_BONUS, BRAZIL_OUT)));
@@ -142,8 +142,8 @@ define('COSTA',   serialize(array(COSTA_WINS, COSTA_TIES, COSTA_BONUS, COSTA_OUT
 
 /*************************************************/
 //K
-define('MBAPPE_GOALS', 2);    define('MBAPPE_BONUS', 0);
-define('MESSI_GOALS', 2);   define('MESSI_BONUS', 0);
+define('MBAPPE_GOALS', 6);    define('MBAPPE_BONUS', 0);
+define('MESSI_GOALS', 4);   define('MESSI_BONUS', 0);
 define('KANE_GOALS', 0);   define('KANE_BONUS', 0);
 define('MBAPPE_OUT', 0);	 define('MESSI_OUT', 0); define('KANE_OUT', 0);
 
