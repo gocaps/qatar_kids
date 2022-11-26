@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After England vs USA');
+define('LAST_UPDATE', 'After Poland vs Saudi Arabia');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -73,7 +73,7 @@ define('MEXICO', 	serialize(array(MEXICO_WINS, MEXICO_TIES, MEXICO_BONUS, MEXICO
 
 /*************************************************/
 //F
-define('POLAND_WINS', 0);		define('POLAND_TIES', 1);		define('POLAND_BONUS', 0);
+define('POLAND_WINS', 3);		define('POLAND_TIES', 1);		define('POLAND_BONUS', 0);
 define('SENEGAL_WINS', 3);		define('SENEGAL_TIES', 0);		define('SENEGAL_BONUS', 0);
 define('USA_WINS', 0);		define('USA_TIES', 2);		define('USA_BONUS', 0);
 define('SERBIA_WINS', 0);		define('SERBIA_TIES', 0);		define('SERBIA_BONUS', 0);
@@ -111,7 +111,7 @@ define('JAPAN', 	serialize(array(JAPAN_WINS, JAPAN_TIES, JAPAN_BONUS, JAPAN_OUT)
 
 /*************************************************/
 //I
-define('AUSTRALIA_WINS', 0);		define('AUSTRALIA_TIES', 0);		define('AUSTRALIA_BONUS', 0);
+define('AUSTRALIA_WINS', 3);		define('AUSTRALIA_TIES', 0);		define('AUSTRALIA_BONUS', 0);
 define('CAMEROON_WINS', 0);   define('CAMEROON_TIES', 0);   define('CAMEROON_BONUS', 0);
 define('IRAN_WINS', 3);		define('IRAN_TIES', 0);		define('IRAN_BONUS', 0);
 define('AUSTRALIA_OUT', 0);		define('CAMEROON_OUT', 0);			define('IRAN_OUT', 0);
@@ -183,7 +183,7 @@ define('VINI', serialize(array(VINI_GOALS, VINI_BONUS, VINI_OUT)));
 define('RICHARLISON_GOALS', 4);		define('RICHARLISON_BONUS', 0);
 define('MORATA_GOALS', 2);		define('MORATA_BONUS', 0);
 define('HAVERTZ_GOALS', 0);		define('HAVERTZ_BONUS', 0);
-define('LEWANDOWSKI_GOALS', 0);		define('LEWANDOWSKI_BONUS', 0);
+define('LEWANDOWSKI_GOALS', 2);		define('LEWANDOWSKI_BONUS', 0);
 define('RICHARLISON_OUT', 0);			define('MORATA_OUT', 0);		define('HAVERTZ_OUT', 0);		define('LEWANDOWSKI_OUT', 0);
 
 define('RICHARLISON', serialize(array(RICHARLISON_GOALS, RICHARLISON_BONUS, RICHARLISON_OUT)));
