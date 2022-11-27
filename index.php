@@ -17,7 +17,7 @@ else {
   echo '<a name="top" href="#groups">See Brackets</a><br />';
   echo '<a href="#rules">See Rules & Prizes</a>';
   echo '<h4>Last Update: '.LAST_UPDATE.'</h4>';
-  //echo '<h5>Prize Update!</h5>';
+  echo '<h5>Prize Update!</h5>';
   if(TWEET) echo TWEET;
 
   $wc_pool = new WC_Pool();
@@ -31,9 +31,12 @@ else {
   echo '<p>In Team brackets, each win in the tournament is worth 3 points. A draw is worth 1 point. The team in each bracket (and ties) that finishes with the most points will receive 3 bonus points.</p>';
   echo '<p>In Player brackets, each goal scored is worth 2 points. The player in each bracket (and ties) that finishes with the most goals will receive 3 bonus points.</p>';
   echo '<h4>Prizes</h4>';
+  echo '<h3>To honour Davies scoring at 68 seconds, 6th and 8th place will win an Alphonso Davies Panini Prizm World Cup card</h3>';
   echo '<ul><li>1st - $40</li><li>2nd - $20</li><li>3rd - $10</li>';
+  echo '<li>6th - Davies card</li>';
+  echo '<li>8th - Davies card</li>';
   echo '<li>Last Place - A pack of Match Attax cards</li>';
-  echo '<li>Plus random soccer card prizes, to be announced as the tournament progresses</li></ul>';
+  echo '</ul>';
 
   echo '<h4>Tiebreakers</h4>';
   echo '<p>If there are ties in the top three spots at the end of the tournament, tiebreakers in order are:';
