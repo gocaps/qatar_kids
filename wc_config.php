@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Argentina vs Mexico');
+define('LAST_UPDATE', 'After Canada vs Croatia');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -50,7 +50,7 @@ define('BELGIUM', 	serialize(array(BELGIUM_WINS, BELGIUM_TIES, BELGIUM_BONUS, BE
 /*************************************************/
 //D
 define('DENMARK_WINS', 0);		define('DENMARK_TIES', 1);		define('DENMARK_BONUS', 0);
-define('CROATIA_WINS', 0);		define('CROATIA_TIES', 1);		define('CROATIA_BONUS', 0);
+define('CROATIA_WINS', 3);		define('CROATIA_TIES', 1);		define('CROATIA_BONUS', 0);
 define('URUGUAY_WINS', 0);		define('URUGUAY_TIES', 1);		define('URUGUAY_BONUS', 0);
 define('DENMARK_OUT', 0);		define('CROATIA_OUT', 0);			define('URUGUAY_OUT', 0);
 
@@ -88,7 +88,7 @@ define('SERBIA', 	serialize(array(SERBIA_WINS, SERBIA_TIES, SERBIA_BONUS, SERBIA
 /*************************************************/
 //G
 define('WALES_WINS', 0);		define('WALES_TIES', 1);		define('WALES_BONUS', 0);
-define('MOROCCO_WINS', 0);		define('MOROCCO_TIES', 1);		define('MOROCCO_BONUS', 0);
+define('MOROCCO_WINS', 3);		define('MOROCCO_TIES', 1);		define('MOROCCO_BONUS', 0);
 define('KOREA_WINS', 0);		define('KOREA_TIES', 1);		define('KOREA_BONUS', 0);
 define('WALES_OUT', 0);		define('MOROCCO_OUT', 0);		define('KOREA_OUT', 0);
 
@@ -126,7 +126,7 @@ define('IRAN', 	serialize(array(IRAN_WINS, IRAN_TIES, IRAN_BONUS, IRAN_OUT)));
 define('TUNISIA_WINS', 0);	define('TUNISIA_TIES', 1);	define('TUNISIA_BONUS', 0);
 define('QATAR_WINS', 0);			define('QATAR_TIES', 0);			define('QATAR_BONUS', 0);
 define('SAUDI_WINS', 3);   define('SAUDI_TIES', 0);   define('SAUDI_BONUS', 0);
-define('COSTA_WINS', 0);		define('COSTA_TIES', 0);		define('COSTA_BONUS', 0);
+define('COSTA_WINS', 3);		define('COSTA_TIES', 0);		define('COSTA_BONUS', 0);
 define('TUNISIA_OUT', 0);		define('QATAR_OUT', 0);			define('SAUDI_OUT', 0);		define('COSTA_OUT', 0);
 
 define('TUNISIA', serialize(array(TUNISIA_WINS, TUNISIA_TIES, TUNISIA_BONUS, TUNISIA_OUT)));
@@ -264,7 +264,7 @@ define('KAMADA', serialize(array(KAMADA_GOALS, KAMADA_BONUS, KAMADA_OUT)));
 
 /*************************************************/
 //T
-define('DAVIES_GOALS', 0);		define('DAVIES_BONUS', 0);
+define('DAVIES_GOALS', 2);		define('DAVIES_BONUS', 0);
 define('LARIN_GOALS', 0);		define('LARIN_BONUS', 0);
 define('BUCHANON_GOALS', 0);	define('BUCHANON_BONUS', 0);
 define('CAVALLINI_GOALS', 0);	define('CAVALLINI_BONUS', 0);
