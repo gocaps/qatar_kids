@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Ghana vs South Korea');
+define('LAST_UPDATE', 'After Brazil vs Switzerland');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -12,7 +12,7 @@ define('TWEET', false);
 
 /*************************************************/
 //A
-define('BRAZIL_WINS', 3);		define('BRAZIL_TIES', 0);		define('BRAZIL_BONUS', 0);
+define('BRAZIL_WINS', 6);		define('BRAZIL_TIES', 0);		define('BRAZIL_BONUS', 0);
 define('ARGENTINA_WINS', 3);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
 define('FRANCE_WINS', 6);  define('FRANCE_TIES', 0);  define('FRANCE_BONUS', 0);
 define('BRAZIL_OUT', 0);		define('ARGENTINA_OUT', 0); define('FRANCE_OUT', 0);
