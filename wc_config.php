@@ -226,7 +226,7 @@ define('VLAHOVIC_GOALS', 0);		define('VLAHOVIC_BONUS', 0);
 define('SANE_GOALS', 0);		define('SANE_BONUS', 0);
 define('BALE_GOALS', 2);		define('BALE_BONUS', 0);
 define('GAKPO_GOALS', 6);		define('GAKPO_BONUS', 0);
-define('VLAHOVIC_OUT', 0);	define('SANE_OUT', 0);		define('BALE_OUT', 0);		define('GAKPO_OUT', 0);
+define('VLAHOVIC_OUT', 0);	define('SANE_OUT', 0);		define('BALE_OUT', 1);		define('GAKPO_OUT', 0);
 
 define('VLAHOVIC', serialize(array(VLAHOVIC_GOALS, VLAHOVIC_BONUS, VLAHOVIC_OUT)));
 define('SANE', serialize(array(SANE_GOALS, SANE_BONUS, SANE_OUT)));
