@@ -155,7 +155,7 @@ class WC_Team {
   	$map['SANE'] = 'germany';
   	$map['BALE'] = 'wales';
   	$map['GAKPO'] = 'holland';
-  	$map['BERNARDO'] = 'spain';
+  	$map['BERNARDO'] = 'portugal';
   	$map['MODRIC'] = 'croatia';
   	$map['PULISIC'] = 'usa';
   	$map['SON'] = 'korea';
