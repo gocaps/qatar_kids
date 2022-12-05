@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After England vs Senegal');
+define('LAST_UPDATE', 'After Croatia vs Japan');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -50,7 +50,7 @@ define('BELGIUM', 	serialize(array(BELGIUM_WINS, BELGIUM_TIES, BELGIUM_BONUS, BE
 /*************************************************/
 //D
 define('DENMARK_WINS', 0);		define('DENMARK_TIES', 1);		define('DENMARK_BONUS', 0);
-define('CROATIA_WINS', 3);		define('CROATIA_TIES', 2);		define('CROATIA_BONUS', 3);
+define('CROATIA_WINS', 6);		define('CROATIA_TIES', 2);		define('CROATIA_BONUS', 3);
 define('URUGUAY_WINS', 3);		define('URUGUAY_TIES', 1);		define('URUGUAY_BONUS', 0);
 define('DENMARK_OUT', 1);		define('CROATIA_OUT', 0);			define('URUGUAY_OUT', 1);
 
@@ -102,7 +102,7 @@ define('KOREA', 	serialize(array(KOREA_WINS, KOREA_TIES, KOREA_BONUS, KOREA_OUT)
 define('CANADA_WINS', 0);			define('CANADA_TIES', 0);			define('CANADA_BONUS', 0);
 define('GHANA_WINS', 3);		define('GHANA_TIES', 0);		define('GHANA_BONUS', 0);
 define('JAPAN_WINS', 6);		define('JAPAN_TIES', 0);		define('JAPAN_BONUS', 3);
-define('CANADA_OUT', 1);			define('GHANA_OUT', 1);			define('JAPAN_OUT', 0);
+define('CANADA_OUT', 1);			define('GHANA_OUT', 1);			define('JAPAN_OUT', 1);
 
 define('CANADA', 		serialize(array(CANADA_WINS, CANADA_TIES, CANADA_BONUS, CANADA_OUT)));
 define('GHANA', 	serialize(array(GHANA_WINS, GHANA_TIES, GHANA_BONUS, GHANA_OUT)));
@@ -252,9 +252,9 @@ define('SON', serialize(array(SON_GOALS, SON_BONUS, SON_OUT)));
 //S
 define('HOJBJERG_GOALS', 0);		define('HOJBJERG_BONUS', 0);
 define('JIMENEZ_GOALS', 0);		define('JIMENEZ_BONUS', 0);
-define('AYEW_GOALS', 2);		define('AYEW_BONUS', 0);
+define('AYEW_GOALS', 2);		define('AYEW_BONUS', 3);
 define('KAMADA_GOALS', 0);		define('KAMADA_BONUS', 0);
-define('HOJBJERG_OUT', 1);		define('JIMENEZ_OUT', 1);		define('AYEW_OUT', 1);		define('KAMADA_OUT', 0);
+define('HOJBJERG_OUT', 1);		define('JIMENEZ_OUT', 1);		define('AYEW_OUT', 1);		define('KAMADA_OUT', 1);
 
 define('HOJBJERG', serialize(array(HOJBJERG_GOALS, HOJBJERG_BONUS, HOJBJERG_OUT)));
 define('JIMENEZ', serialize(array(JIMENEZ_GOALS, JIMENEZ_BONUS, JIMENEZ_OUT)));
