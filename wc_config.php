@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Morocco vs Spain');
+define('LAST_UPDATE', 'After Portugal vs Switzerland');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -38,7 +38,7 @@ define('HOLLAND',   serialize(array(HOLLAND_WINS, HOLLAND_TIES, HOLLAND_BONUS, H
 /*************************************************/
 //C
 define('GERMANY_WINS', 3);   define('GERMANY_TIES', 1);   define('GERMANY_BONUS', 0);
-define('PORTUGAL_WINS', 6);   define('PORTUGAL_TIES', 0);   define('PORTUGAL_BONUS', 3);
+define('PORTUGAL_WINS', 9);   define('PORTUGAL_TIES', 0);   define('PORTUGAL_BONUS', 3);
 define('BELGIUM_WINS', 3);		define('BELGIUM_TIES', 1);		define('BELGIUM_BONUS', 0);
 define('GERMANY_OUT', 1);  define('PORTUGAL_OUT', 0);define('BELGIUM_OUT', 1);
 
@@ -64,7 +64,7 @@ define('URUGUAY',   serialize(array(URUGUAY_WINS, URUGUAY_TIES, URUGUAY_BONUS, U
 define('SWITZ_WINS', 6);    define('SWITZ_TIES', 0);    define('SWITZ_BONUS', 3);
 define('ECUADOR_WINS', 3);	define('ECUADOR_TIES', 1);		define('ECUADOR_BONUS', 0);
 define('MEXICO_WINS', 3);		define('MEXICO_TIES', 1);		define('MEXICO_BONUS', 0);
-define('SWITZ_OUT', 0);		define('ECUADOR_OUT', 1);			define('MEXICO_OUT', 1);
+define('SWITZ_OUT', 1);		define('ECUADOR_OUT', 1);			define('MEXICO_OUT', 1);
 
 define('SWITZ',   serialize(array(SWITZ_WINS, SWITZ_TIES, SWITZ_BONUS, SWITZ_OUT)));
 define('ECUADOR', 	serialize(array(ECUADOR_WINS, ECUADOR_TIES, ECUADOR_BONUS, ECUADOR_OUT)));
