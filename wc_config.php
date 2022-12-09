@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Croatia vs Brazil');
+define('LAST_UPDATE', 'After Argentina vs Holland');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -13,7 +13,7 @@ define('TWEET', false);
 /*************************************************/
 //A
 define('BRAZIL_WINS', 9);		define('BRAZIL_TIES', 0);		define('BRAZIL_BONUS', 0);
-define('ARGENTINA_WINS', 9);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
+define('ARGENTINA_WINS', 12);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
 define('FRANCE_WINS', 9);  define('FRANCE_TIES', 0);  define('FRANCE_BONUS', 0);
 define('BRAZIL_OUT', 1);		define('ARGENTINA_OUT', 0); define('FRANCE_OUT', 0);
 
@@ -28,7 +28,7 @@ define('FRANCE',  serialize(array(FRANCE_WINS, FRANCE_TIES, FRANCE_BONUS, FRANCE
 define('SPAIN_WINS', 3);		define('SPAIN_TIES', 1);		define('SPAIN_BONUS', 0);
 define('ENGLAND_WINS', 9);		define('ENGLAND_TIES', 1);		define('ENGLAND_BONUS', 0);
 define('HOLLAND_WINS', 9);    define('HOLLAND_TIES', 1);    define('HOLLAND_BONUS', 0);
-define('SPAIN_OUT', 1);			define('ENGLAND_OUT', 0);   define('HOLLAND_OUT', 0);
+define('SPAIN_OUT', 1);			define('ENGLAND_OUT', 0);   define('HOLLAND_OUT', 1);
 
 define('SPAIN', 	serialize(array(SPAIN_WINS, SPAIN_TIES, SPAIN_BONUS, SPAIN_OUT)));
 define('ENGLAND', 	serialize(array(ENGLAND_WINS, ENGLAND_TIES, ENGLAND_BONUS, ENGLAND_OUT)));
@@ -143,7 +143,7 @@ define('COSTA',   serialize(array(COSTA_WINS, COSTA_TIES, COSTA_BONUS, COSTA_OUT
 /*************************************************/
 //K
 define('MBAPPE_GOALS', 10);    define('MBAPPE_BONUS', 0);
-define('MESSI_GOALS', 6);   define('MESSI_BONUS', 0);
+define('MESSI_GOALS', 8);   define('MESSI_BONUS', 0);
 define('KANE_GOALS', 2);   define('KANE_BONUS', 0);
 define('MBAPPE_OUT', 0);	 define('MESSI_OUT', 0); define('KANE_OUT', 0);
 
@@ -170,7 +170,7 @@ define('LUKAKU_GOALS', 0);		define('LUKAKU_BONUS', 0);
 define('LAUTARO_GOALS', 0);		define('LAUTARO_BONUS', 0);
 define('DEPAY_GOALS', 2);		define('DEPAY_BONUS', 0);
 define('VINI_GOALS', 2);		define('VINI_BONUS', 0);
-define('LUKAKU_OUT', 1);		define('LAUTARO_OUT', 0);		define('DEPAY_OUT', 0);		define('VINI_OUT', 1);
+define('LUKAKU_OUT', 1);		define('LAUTARO_OUT', 0);		define('DEPAY_OUT', 1);		define('VINI_OUT', 1);
 
 define('LUKAKU', serialize(array(LUKAKU_GOALS, LUKAKU_BONUS, LUKAKU_OUT)));
 define('LAUTARO', serialize(array(LAUTARO_GOALS, LAUTARO_BONUS, LAUTARO_OUT)));
@@ -226,7 +226,7 @@ define('VLAHOVIC_GOALS', 2);		define('VLAHOVIC_BONUS', 0);
 define('SANE_GOALS', 0);		define('SANE_BONUS', 0);
 define('BALE_GOALS', 2);		define('BALE_BONUS', 0);
 define('GAKPO_GOALS', 6);		define('GAKPO_BONUS', 3);
-define('VLAHOVIC_OUT', 1);	define('SANE_OUT', 1);		define('BALE_OUT', 1);		define('GAKPO_OUT', 0);
+define('VLAHOVIC_OUT', 1);	define('SANE_OUT', 1);		define('BALE_OUT', 1);		define('GAKPO_OUT', 1);
 
 define('VLAHOVIC', serialize(array(VLAHOVIC_GOALS, VLAHOVIC_BONUS, VLAHOVIC_OUT)));
 define('SANE', serialize(array(SANE_GOALS, SANE_BONUS, SANE_OUT)));
