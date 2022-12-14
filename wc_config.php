@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After Argentina vs Croatia');
+define('LAST_UPDATE', 'After France vs Moroco');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -14,7 +14,7 @@ define('TWEET', false);
 //A
 define('BRAZIL_WINS', 9);		define('BRAZIL_TIES', 0);		define('BRAZIL_BONUS', 0);
 define('ARGENTINA_WINS', 15);	define('ARGENTINA_TIES', 0);	define('ARGENTINA_BONUS', 0);
-define('FRANCE_WINS', 12);  define('FRANCE_TIES', 0);  define('FRANCE_BONUS', 0);
+define('FRANCE_WINS', 15);  define('FRANCE_TIES', 0);  define('FRANCE_BONUS', 0);
 define('BRAZIL_OUT', 1);		define('ARGENTINA_OUT', 0); define('FRANCE_OUT', 0);
 
 define('BRAZIL', 	serialize(array(BRAZIL_WINS, BRAZIL_TIES, BRAZIL_BONUS, BRAZIL_OUT)));
@@ -90,7 +90,7 @@ define('SERBIA', 	serialize(array(SERBIA_WINS, SERBIA_TIES, SERBIA_BONUS, SERBIA
 define('WALES_WINS', 0);		define('WALES_TIES', 1);		define('WALES_BONUS', 0);
 define('MOROCCO_WINS', 12);		define('MOROCCO_TIES', 1);		define('MOROCCO_BONUS', 3);
 define('KOREA_WINS', 3);		define('KOREA_TIES', 1);		define('KOREA_BONUS', 0);
-define('WALES_OUT', 1);		define('MOROCCO_OUT', 0);		define('KOREA_OUT', 1);
+define('WALES_OUT', 1);		define('MOROCCO_OUT', 1);		define('KOREA_OUT', 1);
 
 define('WALES', 	serialize(array(WALES_WINS, WALES_TIES, WALES_BONUS, WALES_OUT)));
 define('MOROCCO', 	serialize(array(MOROCCO_WINS, MOROCCO_TIES, MOROCCO_BONUS, MOROCCO_OUT)));

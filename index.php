@@ -32,15 +32,29 @@ else {
   echo '<p>In Player brackets, each goal scored is worth 2 points. The player in each bracket (and ties) that finishes with the most goals will receive 3 bonus points.</p>';
   echo '<h4>Prizes</h4>';
 
-  echo '<p>During the final, we\'re going to do a random squares pool. The winner will receive a soccer card prize pack. Before the match, everyone will get randomly assigned to a final outcome of the final match.</p>';
-  echo '<p>Team A is winner of Arg vs Cro. Team B is winner of Fra vs Mor. The 19 outcomes that will be randomly assigned are:</p>';
-  echo '<div>Team A wins in regulation: 1-0, 2-0, 2-1, 3-0, 3-1, 3-2</div>';
-  echo '<div>Team B wins in regulation: 1-0, 2-0, 2-1, 3-0, 3-1, 3-2</div>';
-  echo '<div>Team A wins in extra time, and the <b>extra time score</b> is 1-0, 2-0</div>';
-  echo '<div>Team B wins in extra time, and the <b>extra time score</b> is 1-0, 2-0</div>';
-  echo '<div>Team A wins in a shootout</div>';
-  echo '<div>Team B wins in a shootout</div>';
-  echo '<div>Any other regulation or extra time score resulting in a win</div>';
+  echo '<h3>Squares for World Cup final</h3>';
+  echo '<p>Winner gets a soccer card prize pack. Squares assigned using random.org</p>';
+  echo '<table class="imagetable"><tbody>';
+  echo '<tr><td>Argentina wins in regulation 1-0</td><td></td></tr>';
+  echo '<tr><td>Argentina wins in regulation 2-0</td><td></td></tr>';
+  echo '<tr><td>Argentina wins in regulation 2-1</td><td></td></tr>';
+  echo '<tr><td>Argentina wins in regulation 3-0</td><td></td></tr>';
+  echo '<tr><td>Argentina wins in regulation 3-1</td><td></td></tr>';
+  echo '<tr><td>Argentina wins in regulation 3-2</td><td></td></tr>';
+  echo '<tr><td>France wins in regulation 1-0</td><td></td></tr>';
+  echo '<tr><td>France wins in regulation 2-0</td><td></td></tr>';
+  echo '<tr><td>France wins in regulation 2-1</td><td></td></tr>';
+  echo '<tr><td>France wins in regulation 3-0</td><td></td></tr>';
+  echo '<tr><td>France wins in regulation 3-1</td><td></td></tr>';
+  echo '<tr><td>France wins in regulation 3-2</td><td></td></tr>';
+  echo '<tr><td>Argentina wins in extra time. Extra Time score is 1-0</td><td></td></tr>';
+  echo '<tr><td>Argentina wins in extra time. Extra Time score is 2-0</td><td></td></tr>';
+  echo '<tr><td>France wins in extra time. Extra Time score is 1-0</td><td></td></tr>';
+  echo '<tr><td>France wins in extra time. Extra Time score is 2-0</td><td></td></tr>';
+  echo '<tr><td>Argentina wins in shootout</td><td></td></tr>';
+  echo '<tr><td>France wins in shootout</td><td></td></tr>';
+  echo '<tr><td>Any other regulation or extra time score resulting in a win</td><td></td></tr>';
+  echo '</tbody></table>';
 
   echo '<p><span>Other Prizes:</span>';
   echo '<ul><li>1st - $40</li><li>2nd - $20</li><li>3rd - $10</li>';
