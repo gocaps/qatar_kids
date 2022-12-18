@@ -51,7 +51,7 @@ else {
   echo '<tr><td>Argentina wins in extra time. Extra Time score is 2-0</td><td>Messi is the GOAT FC</td></tr>';
   echo '<tr><td>France wins in extra time. Extra Time score is 1-0</td><td>Da Boyz</td></tr>';
   echo '<tr><td>France wins in extra time. Extra Time score is 2-0</td><td>Kieran\'s football team</td></tr>';
-  echo '<tr><td>Argentina wins in shootout</td><td>Kieran\'s other team</td></tr>';
+  echo '<tr><td class="out">Argentina wins in shootout</td><td class="out">Kieran\'s other team</td></tr>';
   echo '<tr><td>France wins in shootout</td><td>Messi ain\'t the GOAT Ronaldo better</td></tr>';
   echo '<tr><td>Any other regulation or extra time score resulting in a win</td><td>Team O.P. 2.0</td></tr>';
   echo '</tbody></table>';
