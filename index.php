@@ -17,7 +17,22 @@ else {
   echo '<a name="top" href="#groups">See Brackets</a><br />';
   echo '<a href="#rules">See Rules & Prizes</a>';
   echo '<h4>Last Update: '.LAST_UPDATE.'</h4>';
-  echo '<h4>Note: 3rd place game counts in the standings</h4>';
+
+  echo '<h5>1st - $40 - Kieran\'s football team</h5>';
+  echo '<h5>2nd - $20 - Vancouver united</h5>';
+  echo '<h5>3rd - $10 - PSG Kai</h5>';
+  echo '<p><h5>Squares winner - Kieran\'s other team</h5></p>';
+  echo '<p>';
+  echo '<h5>4th tied - Jonathan David card - Salah is not the GOAT FC</h5>';
+  echo '<h5>4th tied - Jonathan David card - Shea-naldo</h5>';
+  echo '<h5>6th tied - Alphonso Davies card - The Bazoukies</h5>';
+  echo '<h5>6th tied - Alphonso Davies card - The eye hawks</h5>';
+  echo '<h5>8th - Alphonso Davies card - RONALDOAINTDAGOATMESSIBETTERIMTHICK29MBAPPESDAGOAT </h5>';
+  echo '<h5>18th - Milan Borjan card - Ronaldo ain\'t the GOAT </h5>';
+  echo '<h5>Last place - Pack of Match Attax - Messi ain\'t the GOAT Ronaldo better</h5>';
+  echo '</p>';
+
+
   if(TWEET) echo TWEET;
 
   $wc_pool = new WC_Pool();
