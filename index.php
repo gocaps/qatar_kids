@@ -17,7 +17,7 @@ else {
   echo '<a name="top" href="#groups">See Brackets</a><br />';
   echo '<a href="#rules">See Rules & Prizes</a>';
   echo '<h4>Last Update: '.LAST_UPDATE.'</h4>';
-  echo '<h5>Prize Update!</h5>';
+  echo '<h4>Note: 3rd place game counts in the standings</h4>';
   if(TWEET) echo TWEET;
 
   $wc_pool = new WC_Pool();

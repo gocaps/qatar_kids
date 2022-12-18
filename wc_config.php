@@ -1,7 +1,7 @@
 <?php
 
 define('UPDATING', false);
-define('LAST_UPDATE', 'After France vs Moroco');
+define('LAST_UPDATE', 'After 3rd place game');
 define('SHOW_TEAMS', true);
 define('SHOW_BONUS_TEXT', true);
 define('TWEET', false);
@@ -50,7 +50,7 @@ define('BELGIUM', 	serialize(array(BELGIUM_WINS, BELGIUM_TIES, BELGIUM_BONUS, BE
 /*************************************************/
 //D
 define('DENMARK_WINS', 0);		define('DENMARK_TIES', 1);		define('DENMARK_BONUS', 0);
-define('CROATIA_WINS', 9);		define('CROATIA_TIES', 2);		define('CROATIA_BONUS', 3);
+define('CROATIA_WINS', 12);		define('CROATIA_TIES', 2);		define('CROATIA_BONUS', 3);
 define('URUGUAY_WINS', 3);		define('URUGUAY_TIES', 1);		define('URUGUAY_BONUS', 0);
 define('DENMARK_OUT', 1);		define('CROATIA_OUT', 1);			define('URUGUAY_OUT', 1);
 
